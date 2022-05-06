@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--! CSS Link  -->
+    <link rel="stylesheet" href="./Assets/CSS/index.css">
+    
+    <title>Card Memory Game</title>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header -->
+        <div class="header">
+            <h1 class="title">
+                Card Memory Game
+            </h1>
+        </div>
+
+        <!-- Game Field -->
+        <section class="memory-game">
+            <div class="memory-card" data-framework="aurelia">
+                <img class="front-face" src="./Assets/images/44.png" alt="Da">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="aurelia">
+                <img class="front-face" src="./Assets/images/44.png" alt="Da">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="angular">
+                <img class="front-face" src="./Assets/images/45.png" alt="45">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="angular">
+                <img class="front-face" src="./Assets/images/45.png" alt="45">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="backbone">
+                <img class="front-face" src="./Assets/images/da.png" alt="Backbone">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="backbone">
+                <img class="front-face" src="./Assets/images/da.png" alt="Backbone">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="ember">
+                <img class="front-face" src="./Assets/images/Dolphin.png" alt="Ember">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="ember">
+                <img class="front-face" src="./Assets/images/Dolphin.png" alt="Ember">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="react">
+                <img class="front-face" src="./Assets/images/fish.png" alt="React">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="react">
+                <img class="front-face" src="./Assets/images/fish.png" alt="React">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="vue">
+                <img class="front-face" src="./Assets/images/octopus.png" alt="Vue">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+            <div class="memory-card" data-framework="vue">
+                <img class="front-face" src="./Assets/images/octopus.png" alt="Vue">
+                <img class="back-face" src="./Assets/images/backcard.png" alt="JS Badge">
+            </div>
+        </section>
+
+        <!-- Bottom Section -->
+        <div class="score-panel">
+            <div class="timerDiv">
+                <label id="minutes">00</label>:<label id="seconds">00</label>
+            </div>
+            <div class="mistake">
+                <p>Mistakes:<span class="mistakeCount">0</span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./JS/index.js"></script>
+</body>
+</html>
